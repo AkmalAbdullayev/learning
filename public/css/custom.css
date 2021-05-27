@@ -1,0 +1,42 @@
+.section-search {
+    background-color: #f8f8f8;
+    min-height: 450px;
+    background-image: url(https://a.foxford.ngcdn.ru/assets/webpack/images/people.078e1dd8.svg);
+    background-size: contain !important;
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: relative;
+    background-blend-mode: normal;
+    padding: 110px 0;
+}
+.footer:after{
+    content: '' !important;
+    background: none;
+}
+.content{
+    min-height: calc(100vh - 70px - 57px - 49px);
+}
+th, td{
+    vertical-align: middle !important;
+}
+.btn-sm {
+    padding: 3px 5px;
+    font-size: 14px !important;
+}
+.select2-container--default .select2-selection--multiple{
+    min-height: 37px;
+}
+.sidebar .sidebar-menu > ul > li > a span{
+    margin-left: 0;
+}
+.header-nav{
+    border-bottom: 0;
+}
+.header-fixed{
+    border-bottom: 1px solid #e3e8eb;
+    background: #fff;
+}
+.blue-btn-radius {
+    font-size: 14px;
+    font-weight: bold;
+}
